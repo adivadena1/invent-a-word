@@ -10,17 +10,17 @@ clear line of at most 140 characters.
 
 ## The entry
 
-> **doorjog** — the hurried little run you do when a stranger holds a door open from too far away.
+> **scorchbite** — the too-hot bite you endure rather than spit out.
 
-English has no word for that small forced run — the moment a held door turns
-a normal walk into an awkward little sprint. *Doorjog* names it in two plain
-syllables, and the definition lands in one reading.
+English has no word for that moment — food too hot, mouth burning, and
+politeness forbidding the spit-out, so you endure it instead. *Scorchbite*
+names it in two plain syllables, and the definition lands in one reading.
 
 ## How it works
 
 `main.ts` is a deterministic Node 22 program with no network access and no
 input. It writes exactly the entry text above to `/output/entry.txt`
-(92 characters, inside the 1–140 gate) and validates the length itself
+(62 characters, inside the 1–140 gate) and validates the length itself
 before writing.
 
 ```sh
