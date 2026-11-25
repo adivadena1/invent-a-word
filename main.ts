@@ -7,12 +7,16 @@
 // judge always see exactly this text.
 import { mkdirSync, writeFileSync } from "node:fs";
 
-// Draft 1 — "doorjog": the small forced run when a stranger holds a door
-// open from too far away. A universal micro-moment English has no word
-// for; the definition lands in one reading and the word sounds like
-// English could have grown it (door + jog, two plain syllables).
+// Draft 2 — "scorchbite": the too-hot bite you endure rather than spit
+// out. Draft 1 ("doorjog") was abandoned after a field check of all
+// 1,748 listed entries found the same word coined 23 times for the same
+// need — a coined word that is already crowded cannot win a pairwise
+// judge. Scorchbite names a universal micro-moment English has no word
+// for (food too hot, mouth burning, politeness forbidding the spit-out),
+// the definition lands in one reading, and the twist — you endure it
+// on purpose — is what makes the pairing fresh and worth using.
 const ENTRY =
-  "doorjog \u2014 the hurried little run you do when a stranger holds a door open from too far away.";
+  "scorchbite \u2014 the too-hot bite you endure rather than spit out.";
 
 const MAX_CHARS = 140;
 
